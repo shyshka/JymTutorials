@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les001_SettingUpXamarin", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les002_CreatingListView", "Les002_CreatingListView\Les002_CreatingListView.csproj", "{29E7D564-6ECE-4E78-B72B-D0A7A915DF6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les003_CreatingSimpleListView", "Les003_CreatingSimpleListView\Les003_CreatingSimpleListView.csproj", "{2680E301-DAAF-400B-8E65-63ABFF728F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les004_CreatingCustomListView", "Les004_CreatingCustomListView\Les004_CreatingCustomListView.csproj", "{A147796F-EC63-4D52-8D68-64CF4F5AF74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les005_ListViewClickListeners", "Les005_ListViewClickListeners\Les005_ListViewClickListeners.csproj", "{0BF5FA32-8D8F-4E6E-9F05-AF6DB57E9D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les006_CreatingLoginSystem", "Les006_CreatingLoginSystem\Les006_CreatingLoginSystem.csproj", "{1B7F1DF4-1DB4-4EA1-A721-FB8A20FFCBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les007_CreatingLoginSystemMyStyles", "Les007_CreatingLoginSystemMyStyles\Les007_CreatingLoginSystemMyStyles.csproj", "{474CEA2E-9204-4117-9113-15FD49E7C96E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +35,36 @@ Global
 		{29E7D564-6ECE-4E78-B72B-D0A7A915DF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E7D564-6ECE-4E78-B72B-D0A7A915DF6F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29E7D564-6ECE-4E78-B72B-D0A7A915DF6F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2680E301-DAAF-400B-8E65-63ABFF728F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2680E301-DAAF-400B-8E65-63ABFF728F14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2680E301-DAAF-400B-8E65-63ABFF728F14}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2680E301-DAAF-400B-8E65-63ABFF728F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2680E301-DAAF-400B-8E65-63ABFF728F14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2680E301-DAAF-400B-8E65-63ABFF728F14}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A147796F-EC63-4D52-8D68-64CF4F5AF74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A147796F-EC63-4D52-8D68-64CF4F5AF74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A147796F-EC63-4D52-8D68-64CF4F5AF74F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A147796F-EC63-4D52-8D68-64CF4F5AF74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A147796F-EC63-4D52-8D68-64CF4F5AF74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A147796F-EC63-4D52-8D68-64CF4F5AF74F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0BF5FA32-8D8F-4E6E-9F05-AF6DB57E9D45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF5FA32-8D8F-4E6E-9F05-AF6DB57E9D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF5FA32-8D8F-4E6E-9F05-AF6DB57E9D45}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0BF5FA32-8D8F-4E6E-9F05-AF6DB57E9D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF5FA32-8D8F-4E6E-9F05-AF6DB57E9D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF5FA32-8D8F-4E6E-9F05-AF6DB57E9D45}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1B7F1DF4-1DB4-4EA1-A721-FB8A20FFCBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7F1DF4-1DB4-4EA1-A721-FB8A20FFCBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7F1DF4-1DB4-4EA1-A721-FB8A20FFCBC3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1B7F1DF4-1DB4-4EA1-A721-FB8A20FFCBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7F1DF4-1DB4-4EA1-A721-FB8A20FFCBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7F1DF4-1DB4-4EA1-A721-FB8A20FFCBC3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{474CEA2E-9204-4117-9113-15FD49E7C96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474CEA2E-9204-4117-9113-15FD49E7C96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474CEA2E-9204-4117-9113-15FD49E7C96E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{474CEA2E-9204-4117-9113-15FD49E7C96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474CEA2E-9204-4117-9113-15FD49E7C96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474CEA2E-9204-4117-9113-15FD49E7C96E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
