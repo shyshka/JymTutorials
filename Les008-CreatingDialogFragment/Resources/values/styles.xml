@@ -1,0 +1,49 @@
+﻿<!--http://www.mindfreakerstuff.com/2012/09/50-useful-android-custom-button-style-set-1/-->
+
+<resources>
+  <style name="btnSignInStyle" parent="@android:style/Widget.Button">
+    <item name="android:layout_marginLeft">20dp</item>
+    <item name="android:layout_marginRight">20dp</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:gravity">center</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">0.6</item>
+    <item name="android:background">@drawable/btnsignin</item>
+    <item name="android:padding">10dip</item>
+  </style>
+
+  <style name="btnSignOutStyle" parent="@android:style/Widget.Button">
+    <item name="android:layout_marginLeft">20dp</item>
+    <item name="android:layout_marginRight">20dp</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:gravity">center</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">0.6</item>
+    <item name="android:background">@drawable/btnsignout</item>
+    <item name="android:padding">10dip</item>
+  </style>
+
+  <style name="dialogAnimation">
+    <item name="android:windowEnterAnimation">@anim/slide_in</item>
+    <item name="android:windowExitAnimation">@anim/slide_out</item>
+  </style>
+
+  <style name="txtEdit">
+    <item name="android:layout_marginLeft">15dp</item>
+    <item name="android:layout_marginTop">15dp</item>
+    <item name="android:layout_marginBottom">20dp</item>
+    <item name="android:layout_marginRight">15dp</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:ellipsize">start</item>
+    <item name="android:background">@drawable/edittext</item>          
+  </style>
+</resources>

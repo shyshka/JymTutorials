@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="400dp"
+    p1:minHeight="300dp"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/relativeLayout1"
+    p1:background="#dededc">
+    <EditText
+        p1:layout_width="match_parent"
+        p1:id="@+id/txtFirstName"
+        p1:hint="First Name"
+        p1:textColor="#000"
+        p1:layout_marginBottom="10dp"
+        p1:layout_marginLeft="20dp"
+        p1:layout_marginRight="20dp"
+        p1:layout_marginTop="25dp"
+        p1:paddingLeft="10dp"
+        p1:drawableLeft="@android:drawable/ic_menu_myplaces"
+        style="@style/txtEdit"
+        p1:layout_height="35dp" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="35dp"
+        p1:layout_below="@id/txtFirstName"
+        p1:id="@+id/txtEmail"
+        p1:inputType="textEmailAddress"
+        p1:layout_marginBottom="10dp"
+        p1:layout_marginLeft="20dp"
+        p1:layout_marginRight="20dp"
+        p1:hint="Email"
+        p1:paddingLeft="10dp"
+        p1:textColor="#000"
+        style="@style/txtEdit"
+        p1:drawableLeft="@android:drawable/sym_action_email" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="35dp"
+        p1:layout_below="@id/txtEmail"
+        p1:id="@+id/txtPassword"
+        p1:inputType="textPassword"
+        p1:layout_marginBottom="10dp"
+        p1:layout_marginLeft="20dp"
+        p1:layout_marginRight="20dp"
+        p1:hint="Password"
+        p1:paddingLeft="10dp"
+        style="@style/txtEdit"
+        p1:textColor="#000"
+        p1:drawableLeft="@android:drawable/ic_lock_idle_lock" />
+    <RelativeLayout
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/txtPassword"
+        p1:id="@+id/relativeLayout2"
+        p1:layout_marginTop="50dp"
+        p1:layout_centerHorizontal="true">
+        <Button
+            p1:text="Sign Up"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/btnSignUp"
+            p1:layout_centerHorizontal="true"
+            style="@style/btnSignOutStyle" />
+    </RelativeLayout>
+</RelativeLayout>
